@@ -1,6 +1,6 @@
-﻿from .pages.main_page import MainPage
-from .pages.basket_page import BasketPage
-from .pages.login_page import LoginPage
+from pages.main_page import MainPage
+from pages.basket_page import BasketPage
+from pages.login_page import LoginPage
 import pytest
 
 def test_guest_cant_see_product_in_basket_opened_from_main_page(browser):
