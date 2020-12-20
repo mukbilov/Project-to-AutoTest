@@ -3,6 +3,7 @@ from .locators import ProductPageLocators
 from selenium.common.exceptions import NoAlertPresentException
 import math
 
+
 class ProductPage(BasePage):
 
     def get_product_name(self):
